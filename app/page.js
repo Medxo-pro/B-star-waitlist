@@ -103,7 +103,7 @@ export default function Home() {
         className="professional-text-title" 
         sx={{ fontSize: { xs: '2rem', sm: '3rem' } }} 
       >
-        PawSwipe is launching soon... 
+        LittleSteps is launching soon... 
       </Typography>
       <Typography 
         variant="h5" 
@@ -117,7 +117,7 @@ export default function Home() {
         }}
         
       >
-        Join our <span className="professional-text-title-small">waitlist</span> to discover a smarter, more personalized way to find your perfect pet match.
+        Join our <span className="professional-text-title-small">waitlist</span> to discover a network of parents looking to connect and share their experiences.
       </Typography>
       <Box mb={4} width="100%" maxWidth="400px" className="feedback-glow-container">
         <TextField
@@ -164,7 +164,7 @@ export default function Home() {
           onClick={loadEmail}
           disabled={isLoading}
         >
-          {isLoading ? 'Sending...' : 'Join now 🐾'}
+          {isLoading ? 'Sending...' : 'Join now ⭐️'}
         </Button>
         {/* Paw Symbols */}
       </Box>
@@ -191,8 +191,7 @@ export default function Home() {
             paddingTop: '20px',
           }}
         >
-          PawSwipe is your new go-to app for pet adoption. Swipe through profiles of pets looking for their forever homes, and connect with shelters or foster homes in your area 🐶
-        </Typography>
+        LittleSteps is your go-to app for starting and growing your family. Connect with parents nearby or across the U.S. to share experiences, trade lessons, and support each other. Ask for help—and pay it forward! 🏡          </Typography>
       </Box>
     </Box>
   );
